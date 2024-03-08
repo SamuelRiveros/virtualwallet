@@ -4,11 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "SF-Pro-Text-Regular";
+    font-family: "SF-Pro-Text-Regular"
 }
+
 body{
     background: var(--color-primario);
 }
+
 .banner{
     position: absolute;
     z-index: -1;
@@ -165,14 +167,53 @@ progress[value]::-moz-progress-bar {
 }
 
 .service__cards{
+    gap: .8em;
+    margin-bottom: 20px;
+    padding: 0.8em;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.service__cards div {
+    height: 8em;
+    min-width: 6.5em;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.150);
+    font-family: "SF-Pro-Text-Bold.otf";
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.service__cards p{
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 
-.service__cards img {
-    width: 100%;
+/*---------- TRANSACTIONS PART ----------*/
+
+.transactions__description {
+    display: flex;
+    justify-content: center;
+    align-items: c;
+    flex-direction: column;
 }
+
+
+.transactions__cards div {
+    display: flex;
+}
+
+.transactions__cards img {
+    width: 50px;
+}
+
+/*----------------------- FOOTER -----------------------*/
+/*----------------------- FOOTER -----------------------*/
+/*----------------------- FOOTER -----------------------*/
 
 .footer {
     width: 100%;

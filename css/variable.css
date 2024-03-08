@@ -36,10 +36,12 @@
     font-family: "SF-Pro-Text-MediumItalic";
     src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-MediumItalic.otf);
 }
+
 @font-face {
     font-family: "SF-Pro-Text-Regular";
     src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Regular.otf);
 }
+
 @font-face {
     font-family: "SF-Pro-Text-RegularItalic";
     src: url(../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-RegularItalic.otf);

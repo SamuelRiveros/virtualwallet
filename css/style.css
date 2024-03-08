@@ -195,20 +195,33 @@ progress[value]::-moz-progress-bar {
 
 /*---------- TRANSACTIONS PART ----------*/
 
+.transactions__cards {
+    overflow-y: scroll;
+}
+
+
+.transactions__cards img {
+    width: 50px;
+}
+
 .transactions__description {
     display: flex;
     justify-content: center;
-    align-items: c;
     flex-direction: column;
+    text-transform: capitalize;
 }
-
 
 .transactions__cards div {
     display: flex;
 }
 
-.transactions__cards img {
-    width: 50px;
+.transactions__cards__item {
+    display: flex;
+    justify-content: space-between;
+}
+.transactions__value {
+    display: flex;
+    flex-direction: column;
 }
 
 /*----------------------- FOOTER -----------------------*/

@@ -149,14 +149,17 @@ progress[value]::-moz-progress-bar {
     background: var(--color);
 }
 
-
+/*---------- MAIN ACTIVITIES  ----------*/
 
 .main__activities{
+    height: 39em;
     background: var(--color-ternario);
     padding: 1.5em 0.5em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+
+/*---------- MAIN ACTIVITIES  ----------*/
 
 .activities__service h3{
     /* background: darkgoldenrod; */
@@ -196,7 +199,16 @@ progress[value]::-moz-progress-bar {
 /*---------- TRANSACTIONS PART ----------*/
 
 .transactions__cards {
+    display: flex;
+    flex-direction: column;
+    height: 21em;
     overflow-y: scroll;
+
+}
+
+.transactions__cards div {
+    display: flex;
+    margin-top: 10px;
 }
 
 
@@ -222,6 +234,7 @@ progress[value]::-moz-progress-bar {
 .transactions__value {
     display: flex;
     flex-direction: column;
+    align-items: end;
 }
 
 /*----------------------- FOOTER -----------------------*/

@@ -1,5 +1,12 @@
 @import url(variable.css);
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF-Pro-Text-Regular"
+}
+
 .header {
     width: 100%;
     padding: 0 .5em;
@@ -10,6 +17,8 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
+    z-index: 2;
+    top: 0;
 }
 
 .header__logo {
@@ -26,10 +35,24 @@
 
 .logo__titulo {
     /* background: orange; */
-    color: var(--color-ternario);
+    color: var(--color-primario);
     font-family: "SF-Pro-Text-Bold";
     text-transform: uppercase;
 }
+
+.maincard2 {
+    display: flex;
+    border: rebeccapurple solid;
+    width: 20em;
+    height: 10em;
+    margin: auto;
+}
+
+.izqback {
+    display: flex;
+    background-color: #e1ffef;
+}
+
 
 .footer {
     width: 100%;

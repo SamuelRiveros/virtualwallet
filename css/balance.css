@@ -14,6 +14,8 @@ body{
 .banner {
     position: absolute;
     z-index: -1;
+    display: flex;
+    width: 100%;
 }
 
 .banner img {
@@ -21,40 +23,76 @@ body{
 }
 
 .bannercircle {
+    display: flex;
     color: var(--color-ternario);
-    width: 50%;
-    height: 22%;
-    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 110px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: var(--color-secundario);
-    position: absolute;
-    top: 18%;
-    left: 100px;
+
 }
 
 .stuff3 {
+    padding-top: 20px;
     display: flex;
-    position: absolute;
-    top: 43%;
-    left: 115px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.stuff3 p {
-    padding-left: 10px;
+.assets {
+    color: var(--color-ternario);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: var(--color-primario);
 }
+
+.debt {
+    color: var(--color-secundario);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: var(--color-ternario);
+    border: 2px var(--color-secundario) solid;
+}
+
+.income {
+    color: var(--color-cuarto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: var(--color-ternario);
+    border: 2px var(--color-cuarto) solid;
+
+}
+
+
 
 header {
     width: 100%;
     height: 60px; 
-    background: darkgoldenrod;   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
+
 }
 
 .header__logo {
@@ -62,6 +100,7 @@ header {
     display: flex;
     align-items: center;
     gap: 5px;
+    
 
 }
 
@@ -83,13 +122,46 @@ header {
 }
 
 
+.stadistics {
+    padding-top: 50px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
 
+.days {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
 
+.cardzone {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: var(--color-quinto);
+}
 
+.cardzone img {
+    padding: 10px;
+    width: 30%;
+}
 
+.spending h2 {
+    padding-top: 10px;
+    padding-left: 10px;
+}
 
-
-
+.spending small {
+    display: flex;
+    padding: 8px;
+    color: gray !important;
+}
 
 
 

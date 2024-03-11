@@ -10,8 +10,6 @@
 .header {
     width: 100%;
     padding: 0 .5em;
-    /* height: 60px; */
-    /* background: darkgoldenrod; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,7 +20,6 @@
 }
 
 .header__logo {
-    /* background: red; */
     display: flex;
     align-items: center;
     gap: 5px;
@@ -30,7 +27,6 @@
 }
 
 .logo__titulo {
-    /* background: orange; */
     color: var(--color-primario);
     font-family: "SF-Pro-Text-Bold";
     text-transform: uppercase;
@@ -46,7 +42,7 @@
     position: absolute;
     display: flex;
     color: white;
-    background-color: #00dda3;
+    background-color: var(--color-secundario);
     width: 30px;
     height: 30px;
     justify-content: center;
@@ -97,7 +93,7 @@
     margin-top: 10px;
     width: 130px;
     height: 30px;
-    background-color: #00dda3;
+    background-color: var(--color-secundario);
     border: none;
     color: white;
     text-align: center;
@@ -114,7 +110,48 @@
 }
 
 .titulo__card2 {
+    color: var(--color-primario);
     padding: 1.3em;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    height: 320px;
+    overflow-x: scroll;
+}
+
+.card {
+    background: url(../storage/img/card.svg);
+    background-repeat: no-repeat;
+    flex: 1;
+    min-width: 200px;
+    background-position: top;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card h2 {
+    color: var(--color-ternario);
+    font-family: "SF-Pro-Text-Bold";
+}
+
+.card small {
+    position: relative;
+    top: -25%;
+    right: -20%;
+    color: var(--color-ternario);
+    font-family: "SF-Pro-Text-Semibold";
+}
+
+.card .visa, .masterCard {
+    position: relative;
+    left: -30px;
+    bottom: -90px;
 }
 
 

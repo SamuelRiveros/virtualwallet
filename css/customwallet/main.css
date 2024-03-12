@@ -12,3 +12,128 @@ body {
     background-color: var(--color-primario);
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: var(--color-secundario);
+    font-size: 40px;
+}
+
+.logozone {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logozone img {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    width: 100px;
+    margin-left: 1px;
+}
+
+.money, .maintext {
+    color: var(--color-secundario);
+}
+
+.money {
+    border: var(--color-secundario) solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+    margin: auto;
+}
+
+
+.maintext {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+/* transactions */
+
+.activities__transactions {
+    color: var(--color-secundario);
+}
+
+
+.transactions__cards {
+    display: flex;
+    flex-direction: column;
+    height: 21em;
+    overflow-y: scroll;
+}
+
+.transactions__cards div {
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.transactions__cards img {
+    width: 50px;
+}
+
+.transactions__description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+
+.transactions__cards div {
+    display: flex;
+}
+
+.transactions__cards__item {
+    display: flex;
+    justify-content: space-between;
+}
+.transactions__value {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    background: var(--color-primario);
+    position: fixed;
+    bottom: 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li {
+    list-style: none;
+    margin: .5em 0;
+}
+
+footer ul li a img {
+    width: 2em;
+}

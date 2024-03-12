@@ -1,0 +1,11 @@
+:root{
+    --color-primario:#1d1d1d;
+    --color-secundario:#ffffff;
+    --color-ternario:#ff6600;
+    --color-cuarto:#c300ff;
+}
+
+@font-face {
+    font-family: "steelfish";
+    src: url(/storage/font/customwallet/steelfish\ rg.otf);
+}

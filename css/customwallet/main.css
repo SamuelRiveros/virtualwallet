@@ -165,3 +165,12 @@ footer ul li {
 footer ul li a img {
     width: 2em;
 }
+
+footer ul li i {
+    color: var(--color-secundario);
+    font-size: 25px;
+}
+
+.home {
+    filter: drop-shadow(-4px 4px 0 var(--color-ternario));
+}

@@ -12,6 +12,18 @@ body {
     background-color: var(--color-primario);
 }
 
+
+main {
+    height: 70vh;
+}
+
+.mountain img {
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+    opacity: 15%;
+    object-fit: cover;
+}
 .title {
     display: flex;
     justify-content: center;
@@ -62,25 +74,28 @@ body {
 
 .activities__transactions {
     color: var(--color-secundario);
+    height: 38vh;
 }
 
-.activities__transactions h3 {
+.activities__transactions .skullcoin {
     margin-left: 30px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 
 .transactions__cards {
     display: flex;
     flex-direction: column;
-    height: 21em;
+    height: 33vh;
     overflow-y: scroll;
+    padding-left: 10px;
+    padding-right: 20px;
 }
 
 .transactions__cards div {
     display: flex;
-    margin-top: 10px;
 }
+
 
 
 .transactions__cards img {
@@ -101,6 +116,7 @@ body {
 .transactions__cards__item {
     display: flex;
     justify-content: space-between;
+    padding-top: 25px;
 }
 
 .transactions__description {
@@ -112,7 +128,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: end;
-    padding-right: 10px;
 }
 
 

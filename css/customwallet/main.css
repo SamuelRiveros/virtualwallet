@@ -1,5 +1,14 @@
 @import url(/css/customwallet/variable.css);
 
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,12 +34,20 @@ main {
     opacity: 15%;
     object-fit: cover;
 }
+
 .title {
     display: flex;
     justify-content: center;
     margin-top: 10px;
     color: var(--color-secundario);
     font-size: 40px;
+}
+
+.money img {
+    position: absolute;
+    width: 20vh;
+    opacity: 0.5;
+    animation: rotation 0.5s infinite linear;
 }
 
 .logozone {
